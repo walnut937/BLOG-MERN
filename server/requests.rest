@@ -1,0 +1,19 @@
+# POST http://localhost:3000/signup 
+# Content-Type: application/json
+
+# {
+#     "fullname" : "Arsalan",
+#     "email" : "arsalan12@gmail.com",
+#     "password": "Arsaalan865"
+# }
+
+
+# access_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjMxY2YwOGY4NWEwMTU2NThjYWYyOSIsImlhdCI6MTcwMDk5NDI4OH0.iFyNdcQye3gqcVChhxoQzzSH7vY5Tebe4q_bWiP4lBI
+
+POST http://localhost:3000/search-blogs
+Content-Type: application/json
+
+{
+    "tag" : "Poem"
+}
+
